@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SoraCrypto/Classes/**/*'
 
-  s.dependency 'IrohaCrypto'
-  s.dependency 'SoraDocuments'
+  s.dependency 'IrohaCrypto', '~> 0.2.6'
+  s.dependency 'SoraDocuments', '~> 0.1.3'
 
   s.test_spec do |st|
       st.source_files = 'Tests/**/*'
